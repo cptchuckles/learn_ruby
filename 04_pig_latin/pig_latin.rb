@@ -1,5 +1,5 @@
 def translate sentence
-	pl_sen = sentence.split.map! do |word|
+	pl_sen = sentence.split.map do |word|
 		word = word.downcase
 		i = 0
 		i += 1 until "aeiou".include?(word[i])
